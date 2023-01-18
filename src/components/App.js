@@ -74,10 +74,10 @@ function App() {
 const sampleRecipes =[
   {
     id:1,
-    name:'Plain Chicken',
+    name:'Fried Chicken',
     servings: 3,
     cookTime: '1:45',
-    instructions: '1. Put salt on chicken\n2.Put chicken in oven\n3.Eat chicken',
+    instructions: '1. Clean the chicken and cut into medium sized pieces\n2.Coat the chicken in the spice mix\n3.Deep fry the chicken',
     ingredients:[
       {
         id:1,
@@ -86,26 +86,31 @@ const sampleRecipes =[
       },
       {
         id:2,
-        name:'Salt',
-        amount:'1 Tbs'
+        name:'Spice mix',
+        amount:'1 Cup'
       }
     ]
   },
   {
     id:2,
-    name:'Plain Pork',
+    name:'Paneer Masala',
     servings: 5,
     cookTime: '0:45',
-    instructions: '1. Put paprika on pork\n2.Put pork in oven\n3.Eat pork',
+    instructions: '1. Lightly fry paneer\n2.Prepare the gravy by mixing the masala mix and tomato paste\n3.Cook gravy for 5 mins, Add paneer and cook for another 5 mins',
     ingredients:[
       {
         id:1,
-        name:'Pork',
+        name:'Paneer',
         amount:'3 Pounds'
       },
       {
         id:2,
-        name:'Paprika',
+        name:'Tomato paste',
+        amount:'1 Cup'
+      },
+      {
+        id:3,
+        name:'Masala mix',
         amount:'2 Tbs'
       }
     ]
